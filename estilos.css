@@ -1,0 +1,103 @@
+/*---- ALL ---*/
+* {
+	margin:0;
+	padding:0;
+}
+/*---- BODY ---*/ /* valor para las fuentes 16px = 12pt = 100% = 1em */
+/*---------  GENERALES --------*/
+
+body {
+	background-position:top;
+	background-attachment:fixed;
+	background-repeat:no-repeat;	
+	color:#fff;
+	font-family:'Roboto',sans-serif;
+	font-size: 16px;
+	font-weight:400;
+	line-height:1.7;
+	margin:0;
+}
+/*---------  MARCO DEL CONTENIDO --------*/
+/*---------  MARCO DEL CONTENIDO --------*/
+/*---------  MARCO DEL CONTENIDO --------*/
+#contenido {
+    width:95%;
+	max-width:810px;
+ min-width: 400px;	padding:20px;
+	margin: 0px auto;
+	margin-top:50px;
+	border-radius:6px;
+	background-color: rgba(0,0,0,0.75);
+	border: 2px solid rgba(147,127,76,1);
+	height:540px;
+}
+
+/*---------  COLUMNA IZQUIERDA --------*/
+/*---------  COLUMNA IZQUIERDA --------*/
+/*---------  COLUMNA IZQUIERDA --------*/
+#columna-izquierda {
+    float: left;
+    text-align: center;
+    width:400px;
+	padding-top:10px;
+}
+
+/*---------  ICONOS REDES --------*/
+/*---------  ICONOS REDES --------*/
+/*---------  ICONOS REDES --------*/
+#redes-contenedor  {
+	width:100%;
+	margin-left:100px;
+}
+.redes-iconos {
+	margin:0px 20px 10px 20px;
+	width:90px;
+	float:left;
+}
+#redes a:hover {
+	border-bottom: 4px solid rgba(147,127,76,1);
+	}
+	
+/*---------  APPS --------*/
+/*---------  APPS --------*/
+/*---------  APPS --------*/
+#apps-contenedor {
+	display:inline-block;
+}
+#apps-contenedor a {
+	height:55px;
+}
+#apps-contenedor a:hover {
+	border-radius:6px;
+	background-color:rgba(147,127,76,1);
+}
+.apps-titulo {
+	color:#FFF;
+	font-size:14px;
+	font-weight:300;
+}
+#apps-contenedor a {
+	display:inline-block;
+	margin:10px 10px;
+}
+/*---------  COLUMNA DERECHA --------*/
+/*---------  COLUMNA DERECHA --------*/
+/*---------  COLUMNA DERECHA --------*/
+#columna-derecha {
+    float: right;
+    text-align: center;
+    width:400px;
+}
+
+
+#texto_firma {
+	font-size:14px;
+	text-align:center;
+	margin-top:20px;
+}
+
+
+
+@media screen and (max-width:880px){
+#contenido {width:400px;height:1060px;
+}
